@@ -10,7 +10,30 @@ using System.Threading.Tasks;
 namespace E_Commerce.Controllers
 {
     public class HomeController : Controller
-    {
-        // modificamos el homecontroller para hacer la primera prueba 
+    {  
+
+        // se agrego dentro de la clase 
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
     }
 }
