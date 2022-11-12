@@ -10,7 +10,9 @@ using System.Threading.Tasks;
 namespace E_Commerce.Controllers
 {
     public class HomeController : Controller
-    {
+    {  
+
+        // se agrego dentro de la clase 
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
