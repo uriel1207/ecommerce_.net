@@ -1,28 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JUAN.MA\\source\\repos\\E-Commerce\\E-Commerce\\E-Commerce.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\ecommerce_.net\\E-Commerce\\E-Commerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JUAN.MA\\source\\repos\\E-Commerce\\E-Commerce\\E-Commerce.csproj": {
+    "C:\\Users\\HP\\source\\repos\\ecommerce_.net\\E-Commerce\\E-Commerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JUAN.MA\\source\\repos\\E-Commerce\\E-Commerce\\E-Commerce.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ecommerce_.net\\E-Commerce\\E-Commerce.csproj",
         "projectName": "E-Commerce",
-        "projectPath": "C:\\Users\\JUAN.MA\\source\\repos\\E-Commerce\\E-Commerce\\E-Commerce.csproj",
-        "packagesPath": "C:\\Users\\JUAN.MA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JUAN.MA\\source\\repos\\E-Commerce\\E-Commerce\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\ecommerce_.net\\E-Commerce\\E-Commerce.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\ecommerce_.net\\E-Commerce\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JUAN.MA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -64,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
