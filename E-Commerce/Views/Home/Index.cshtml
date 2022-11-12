@@ -1,0 +1,130 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Vista al producto</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+
+
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html">Productos</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Articulos</a></li>
+                    <li><a href="#">Referencias </a></li>
+                    <li><a href="#">Pedidos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="presentation" id="presentation">
+        <div class="presentation-video">
+            <video src="./Resources/video/pizza.mp4" autoplay muted loop></video>
+        </div>
+        <div class="dark-everlay">
+            <div class="presentation-content">
+                <h2>Producto 1</h2>
+                <p>
+                    Espesificacion de Producto uno
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container left" id="about-img1"></div>
+        <div class="about-container right about-content">
+            <h2 class="about-title">Nuestras Pizzas</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sed optio quos, quam dolores voluptatum officia mollitia vel fugit.
+                Sit temporibus accusamus praesentium distinctio quibusdam repellat
+                quas eveniet architecto eos repudiandae.
+            </p>
+        </div>
+
+        <div class="about-container right" id="about-img2"></div>
+        <div class="about-container left about-content">
+            <h2 class="about-title">Nuestra Historia</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloremque architecto error quis qui minima possimus optio
+                aliquam libero aliquid voluptatibus, odio voluptatum deleniti aut.
+                Hic soluta iusto quaerat tempore adipisci.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="dark-everlay">
+            <div class="menu-inner">
+                <h2 class="menu-title">Nuestra Carta</h2>
+                <ul>
+                    <li>
+                        <div>Articulo</div>
+                        <div>Precio</div>
+                    </li>
+
+                    <li>
+                        <div>Articulo</div>
+                        <div>Precio</div>
+                    </li>
+
+                    <li>
+                        <div>Articulo</div>
+                        <div>Precio</div>
+                    </li>
+
+                    <li>
+                        <div>Articulo</div>
+                        <div>Precio</div>
+                    </li>
+
+                    <li>
+                        <div>Articulo</div>
+                        <div>Precio</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation" id="reservation">
+        <h2>Formulario de Reserva</h2>
+        <form action="#">
+            <div class="form-central">
+                <div class="form-left">
+                    <label for="">Fecha</label>
+                    <input type="date" name="" id="">
+
+                    <label for="">Nombre y Apellido</label>
+                    <input type="text" name="" id="">
+
+                    <label for="">Hora</label>
+                    <input type="time" name="" id="">
+                </div>
+
+                <div class="form-right">
+                    <label for="">E-mail</label>
+                    <input type="email" name="" id="">
+
+                    <label for="">Cantidad de Comensales</label>
+                    <input type="number" name="" id="">
+
+                    <label for="">Telefono</label>
+                    <input type="text" name="" id="">
+                </div>
+
+                <label for="">Comentario</label>
+                <textarea name="" id="" cols="120" rows="4"></textarea>
+            </div>
+        </form>
+    </section>
+</body>
