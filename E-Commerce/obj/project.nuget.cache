@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "WIWyxaRtXg6i4kayBYmMe1IewnDfcFRaeWUXYHUiIAjT1VJJAEPIyijMv9wBAiiDu7rYW5vkSr8KcgWcGuHehA==",
   "success": true,
   "projectFilePath": "C:\\Users\\JUAN.MA\\Documents\\ecommerce_.net\\E-Commerce\\E-Commerce.csproj",
-=======
-  "dgSpecHash": "hCdZIQzHLrJYzrZrfQDs60sCzzrWjRBNxw3UP9kC55yQICaFWzTiUC2nZ8lsC+tVxXK7v66qWhEPy0BzUepqkQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\ecommerce_.net\\E-Commerce\\E-Commerce.csproj",
->>>>>>> 75c1637a4dae87722d74af7c608c67c0d450cb4f
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\JUAN.MA\\Documents\\ecommerce_.net\\E-Commerce\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
